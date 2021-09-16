@@ -1,0 +1,123 @@
+/*General*/
+*{
+    margin: 0;
+    background-color: #0a192f;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+}
+
+body{
+    background-color: #0a192f;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+    color: #CCD6F6;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+/*Social Network*/
+
+.social-network{
+    position: fixed;
+    top: 85%;
+    left: 94%;
+}
+
+.social-network ul{
+    list-style: none;
+}
+
+.social-network ul li{
+    margin: 0.4rem;
+}
+
+.social-network ul li i{
+    color: #CCD6F6;
+    font-size: 1.5rem;
+}
+
+.social-network ul li i:hover{
+    color: #21c7ffa6;
+    transition: 0.18s;
+}
+
+/*Navbar*/
+
+.navbar{
+    margin-right: 20px;
+    position: fixed;
+    left: 66%; /*68 withouth /*/
+}
+
+.nav-link{
+    color: #21c7ffa6;
+}
+
+.nav-link:hover{
+    color: #21C8FF;
+}
+
+/*Home*/
+
+.title{
+    padding-top: 2.5rem;
+    padding-left: 10.5rem;
+}
+
+.title image{
+    height: 25px;
+    width: 30px;
+}
+
+.title h1{
+    color: #CCD6F6;
+    font-size: 7.5rem;
+}
+
+.title strong{
+    color: #21C8FF;
+}
+
+/* extension */
+html.sr .widget {
+    visibility: hidden;
+  }
+
+
+/*Content*/
+
+.content{
+    padding-left: 10.5rem;
+    padding-top: 9.5rem;
+}
+
+.section-header {
+    display: flex;
+    padding-bottom: 42px;
+    width: 100vw;
+}
+
+.section-title {
+    font-family: "NTR",sans-serif;
+    color: var(--lightest-slate);
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.section-header:after {
+    content: "";
+    display: block;
+    width: 300px;
+    margin-top: 39px;
+    height: 1px;
+    margin-left: 20px;
+    background-color: #233554;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2rem;
+}
+
